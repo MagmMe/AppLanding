@@ -5733,7 +5733,9 @@ ul.stepper {
 .treeview .ic-w {
   width: 1.3rem; }
 
-body:after {
-  content: "";
-  display: table;
-  clear: both; }
+body {
+  background-color: white; }
+  body:after {
+    content: "";
+    display: table;
+    clear: both; }
