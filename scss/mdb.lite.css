@@ -5739,3 +5739,23 @@ body {
     content: "";
     display: table;
     clear: both; }
+
+html,
+body,
+header,
+.view {
+  height: 100%; }
+
+/* Carousel*/
+.carousel,
+.carousel-item,
+.carousel-item.active {
+  height: 100%; }
+  .carousel .carousel-inner,
+  .carousel-item .carousel-inner,
+  .carousel-item.active .carousel-inner {
+    height: 100%; }
+
+@media (min-width: 800px) and (max-width: 850px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #1C2331 !important; } }
