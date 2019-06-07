@@ -329,6 +329,28 @@
 		"oAP": "/font/roboto/Roboto-Thin.woff2",
 		"oF": 0
 		},
+	"/img/app_hero.jpg": {
+		"ft": 16384,
+		"iS": 392831,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/app_hero.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/app_hero_white.jpg": {
+		"ft": 16384,
+		"iS": 299744,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/app_hero_white.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"/img/flags.png": {
 		"ft": 32768,
 		"iS": 28123,

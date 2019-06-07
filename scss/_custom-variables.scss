@@ -14,3 +14,19 @@
     $opacity-ie: $opacity * 100;
     filter: alpha(opacity=$opacity-ie); //IE8
 }
+
+@mixin bgimage-jpg($name) {
+    $url:"../img/#{$name}.jpg";
+    background: url($url);
+}
+
+@mixin bgimage-png($name) {
+    $url:"../img/#{$name}.png";
+    background: url($url);
+}
+
+@mixin bg-attr($bg-size, $bg-repeat, $bg-position) {
+    background-size: $bg-size;
+    background-repeat: $bg-repeat;
+    background-position: $bg-position;
+}
