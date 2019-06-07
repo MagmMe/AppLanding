@@ -5757,7 +5757,7 @@ header,
     height: 100%; }
 
 .app-hero {
-  background: url("../img/app_hero_white.jpg");
+  background: url("../img/app_hero.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center; }

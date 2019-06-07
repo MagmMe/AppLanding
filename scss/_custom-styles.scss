@@ -26,8 +26,8 @@ header,
 
 // Hero
 .app-hero {
-    @include bgimage-jpg(app_hero_white);
-    @include bg-attr(cover, no-repeat, center);
+    @include bgimage-jpg(app_hero);
+    @include bg-attr(cover, no-repeat);
 }
 
 @media (min-width: 800px) and (max-width: 850px) {

@@ -25,7 +25,7 @@
     background: url($url);
 }
 
-@mixin bg-attr($bg-size, $bg-repeat, $bg-position) {
+@mixin bg-attr($bg-size, $bg-repeat, $bg-position:center) {
     background-size: $bg-size;
     background-repeat: $bg-repeat;
     background-position: $bg-position;
