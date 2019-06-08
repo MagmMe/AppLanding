@@ -12,6 +12,12 @@ header,
     height: 100%;
 }
 
+.navbar-brand {
+    img {
+        max-width: 300px;
+    }
+}
+
 
 /* Carousel*/
 
@@ -30,8 +36,59 @@ header,
     @include bg-attr(cover, no-repeat);
 }
 
+.app-container {
+    padding-top: 7%;
+    h1 {
+        color: #c52b14;
+        font-family: 'Oswald', sans-serif;
+        text-transform: uppercase;
+        font-size: 4em;
+        line-height: .9;
+    }
+    .text-container {
+        padding-right: 3%;
+        border-right: 1px solid #c52b14;
+    }
+    p {
+        font-size: 1.2em;
+        font-weight: 500;
+    }
+    a {
+        color: black;
+    }
+}
+
 @media (min-width: 800px) and (max-width: 850px) {
     .navbar:not(.top-nav-collapse) {
         background: #1C2331 !important;
+    }
+}
+
+@include media-breakpoint-down(xs) {
+    .navbar-brand {
+        img {
+            max-width: 200px;
+        }
+    }
+    .app-container {
+        margin-top: 100px;
+        h1 {
+            font-size: 2.3em;
+        }
+        p {
+            font-size: .9em;
+        }
+        a {
+            font-size: .9em;
+        }
+    }
+    .app-hero img {
+        display: none;
+    }
+}
+
+@include media-breakpoint-down(md) {
+    .app-container {
+        margin-top: 100px;
     }
 }

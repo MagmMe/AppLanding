@@ -1,3 +1,5 @@
+// Oswald font
+@import url('https://fonts.googleapis.com/css?family=Oswald:500&display=swap');
 // Your custom variables
 @mixin clearfix {
     &:after {
@@ -25,7 +27,9 @@
     background: url($url);
 }
 
-@mixin bg-attr($bg-size, $bg-repeat, $bg-position:center) {
+@mixin bg-attr($bg-size,
+$bg-repeat,
+$bg-position:center) {
     background-size: $bg-size;
     background-repeat: $bg-repeat;
     background-position: $bg-position;

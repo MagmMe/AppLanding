@@ -25,6 +25,7 @@
  * Attribution: Animate CSS, Twitter Bootstrap, Materialize CSS, Normalize CSS, Waves JS, WOW JS, Toastr, Chart.js
  *
  */
+@import url("https://fonts.googleapis.com/css?family=Oswald:500&display=swap");
 /*** Global ***/
 .mdb-color.lighten-5 {
   background-color: #d0d6e2 !important; }
@@ -5746,6 +5747,9 @@ header,
 .view {
   height: 100%; }
 
+.navbar-brand img {
+  max-width: 300px; }
+
 /* Carousel*/
 .carousel,
 .carousel-item,
@@ -5762,6 +5766,41 @@ header,
   background-repeat: no-repeat;
   background-position: center; }
 
+.app-container {
+  padding-top: 7%; }
+  .app-container h1 {
+    color: #c52b14;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-size: 4em;
+    line-height: .9; }
+  .app-container .text-container {
+    padding-right: 3%;
+    border-right: 1px solid #c52b14; }
+  .app-container p {
+    font-size: 1.2em;
+    font-weight: 500; }
+  .app-container a {
+    color: black; }
+
 @media (min-width: 800px) and (max-width: 850px) {
   .navbar:not(.top-nav-collapse) {
     background: #1C2331 !important; } }
+
+@media (max-width: 575.98px) {
+  .navbar-brand img {
+    max-width: 200px; }
+  .app-container {
+    margin-top: 100px; }
+    .app-container h1 {
+      font-size: 2.3em; }
+    .app-container p {
+      font-size: .9em; }
+    .app-container a {
+      font-size: .9em; }
+  .app-hero img {
+    display: none; } }
+
+@media (max-width: 991.98px) {
+  .app-container {
+    margin-top: 100px; } }
